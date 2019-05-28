@@ -43,3 +43,10 @@ header {
 .site-logo {
     width: 10%;
 }
+
+.site-logo img {
+    max-width: 90px;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+}

@@ -18,3 +18,7 @@ nav {
     font-size: 15px; 
     color: #2d499a;
 }
+
+.active {
+    font-weight: bold;
+}

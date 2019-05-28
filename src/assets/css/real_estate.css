@@ -1,37 +1,23 @@
-.home-container {
+.real-estate-container {
     /* background: lightgreen; */
     height: -webkit-fill-available;
-    padding-top: 120px;
+    padding-top: 150px;
     overflow-y: auto;
 }
 
-.home-container::-webkit-scrollbar {
+.real-estate-container::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.real-estate-container iframe {
+    width: 853px;
+    height: 480px;
 }
 
 .section {
     width: 100%;
     text-align: center;
-}
-
-.about-section {
-    display: -webkit-inline-box;
-}
-.about-section img {
-    margin: 25px;
-    width: 200px;
-}
-
-.about-section p {
-    margin-top: 25px;
-    width: calc(100% - 300px);
-    line-height: 30px;
-    text-align: left;
-}
-
-.about-section p strong {
-    font-size: 20px;
 }
 
 .clients-and-partners-logo,
@@ -44,4 +30,10 @@
 .charities-we-support-logo img {
     max-width: 150px;
     padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .real-estate-container iframe {
+        width: 500px;
+    }
 }
