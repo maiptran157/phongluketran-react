@@ -1,0 +1,20 @@
+nav {
+    /* background: #fff; */
+    width: 196px;
+}
+
+.left-body ul {
+    margin-top: 50px;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.left-body ul li {
+    list-style: none;
+}
+
+.left-body ul li a {
+    text-decoration: none;
+    font-size: 15px; 
+    color: #2d499a;
+}

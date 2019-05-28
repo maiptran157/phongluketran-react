@@ -1,0 +1,36 @@
+.home-container {
+    /* background: lightgreen; */
+    height: -webkit-fill-available;
+    padding-top: 120px;
+    overflow-y: auto;
+}
+
+.section {
+    width: 100%;
+    text-align: center;
+}
+
+.about-section {
+    display: -webkit-inline-box;
+}
+.about-section img {
+    margin: 25px;
+    width: 200px;
+}
+
+.about-section p {
+    margin-top: 25px;
+    width: calc(100% - 300px);
+    line-height: 30px;
+    text-align: left;
+}
+
+.about-section p strong {
+    font-size: 20px;
+}
+
+.clients-and-partners-logo img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 10px;
+}
