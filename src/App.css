@@ -11,3 +11,20 @@
   width: calc(100% - 196px);
   position: relative;
 }
+
+.page-container {
+  width: 90%;
+  height: -webkit-fill-available;
+  padding-top: 150px;
+  overflow-y: auto;
+}
+
+.page-container::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.section {
+  width: 100%;
+  text-align: center;
+}

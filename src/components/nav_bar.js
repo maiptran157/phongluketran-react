@@ -30,6 +30,7 @@ class NavBar extends Component {
                 <li className={this.checkIfActive("/event")}><Link to="/event">Event</Link></li>
                 <li className={this.checkIfActive("/fashion")}><Link to="/fashion">Fashion</Link></li>
                 <li className={this.checkIfActive("/marketing")}><Link to="/marketing">Marketing</Link></li>
+                <li className={this.checkIfActive("/contact")}><Link to="/contact">Contact</Link></li>
             </ul>
         </nav>
     }

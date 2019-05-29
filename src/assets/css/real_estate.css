@@ -1,39 +1,29 @@
-.real-estate-container {
-    /* background: lightgreen; */
-    height: -webkit-fill-available;
-    padding-top: 150px;
-    overflow-y: auto;
-}
-
-.real-estate-container::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
-
 .real-estate-container iframe {
     width: 853px;
     height: 480px;
 }
 
-.section {
-    width: 100%;
-    text-align: center;
+.gallery-section {
+    width:100%;
 }
 
-.clients-and-partners-logo,
-.charities-we-support-logo {
+.gallery-section img {
+    width: 30%;
+    margin: 1%;
+}
+
+.partners-logo {
     width: 70%;
     padding-left: 15%;
 }
 
-.clients-and-partners-logo img,
-.charities-we-support-logo img {
+.partners-logo img {
     max-width: 150px;
     padding: 20px;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .real-estate-container iframe {
         width: 500px;
     }
-}
+} */

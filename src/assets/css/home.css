@@ -1,18 +1,5 @@
 .home-container {
-    /* background: lightgreen; */
-    height: -webkit-fill-available;
     padding-top: 120px;
-    overflow-y: auto;
-}
-
-.home-container::-webkit-scrollbar {
-    width: 0px;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
-}
-
-.section {
-    width: 100%;
-    text-align: center;
 }
 
 .about-section {
