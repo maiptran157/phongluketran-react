@@ -4,6 +4,7 @@ header {
     height: 120px;
     display: flex;
     position: absolute;
+    z-index: 3;
 }
 
 #mobile-menu {

@@ -13,6 +13,7 @@ import occLogo from '../assets/images/OCC_logo.png';
 import ARCLogo from '../assets/images/ARC_logo.png';
 import unicefLogo from '../assets/images/Unicef_logo.png';
 import WWFLogo from '../assets/images/WWF_logo.png';
+import Footer from './footer';
 import React, { Component } from 'react';
 
 class Home extends Component {
@@ -22,17 +23,17 @@ class Home extends Component {
             <div className="section about-section">
                 <img src={profilePhoto} alt="" />
                 <p className="about-text">
-                    <strong>We help real estate agent sell house faster</strong>
+                    <strong>Guarantee 2 days turnaround or your money back</strong>
                     <br />
-                    With time and statiscally proven technologies, we can generate 49% more qualified leads for you (Apartment.com) and reduce properties' days on market by 56% (Gina Howarth, RE/MAX First Choice)
+                    I know how valuable your time is, as a matter of fact, if you do not receive your photos within 2 days of production, it is completely <span style={{ fontWeight: "bold" }}>100% free</span>.
                     <br />
-                    <strong>We only provide the best value for you</strong>
+                    <strong>Don't have the investment capital for your project right now?</strong>
                     <br />
-                    Our rates are always market compeitive and we only provide our best
+                    You don't have to worry! Your total balance is payable within 30 days of production. I won't rush you to reach for your check book.
                     <br />
                     <strong>You can make the world a better place</strong>
                     <br />
-                    5% of our net profit always goes to charities and we could not have done it without you. Thank you.
+                    5% of our net profit always goes to making the world a friendlier place, and I could not have done it without you. Thank you so much!
                 </p>
             </div>
             <div className="section clients-and-partners-section">
@@ -58,6 +59,7 @@ class Home extends Component {
                     <img src={WWFLogo} style={{ maxWidth: "103px" }} alt="" />
                 </div>
             </div>
+            <Footer />
         </div>
     }
 }

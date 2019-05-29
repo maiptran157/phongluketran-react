@@ -17,6 +17,8 @@
   height: -webkit-fill-available;
   padding-top: 150px;
   overflow-y: auto;
+  position: relative;
+  /* min-height: 100%; */
 }
 
 .page-container::-webkit-scrollbar {
@@ -27,4 +29,30 @@
 .section {
   width: 100%;
   text-align: center;
+}
+
+.page-container a {
+  text-decoration: none;
+  color: #2d4999;
+}
+
+.page-container button {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background: #2d4999;
+  margin: 5%;
+}
+
+.page-container button:hover {
+  opacity: 0.9;
+  transition: 0.5s ease-in-out;
+}
+
+.page-container button a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
 }

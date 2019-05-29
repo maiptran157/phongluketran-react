@@ -17,6 +17,7 @@ import HUDLogo from '../assets/images/HUD_logo.png';
 import realtorLogo from '../assets/images/realtor_Logo.png';
 import matterportLogo from '../assets/images/matterport_logo.png';
 
+import Footer from './footer';
 import React, { Component } from 'react';
 
 class RealEstate extends Component {
@@ -56,6 +57,7 @@ class RealEstate extends Component {
                     <img src={matterportLogo} style={{ margin: "59px 0px" }} alt="" />
                 </div>
             </div>
+            <Footer />
         </div>
     }
 }
