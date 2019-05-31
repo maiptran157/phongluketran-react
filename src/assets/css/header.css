@@ -4,6 +4,7 @@ header {
     height: 120px;
     display: flex;
     position: absolute;
+    z-index: 3;
 }
 
 #mobile-menu {
@@ -49,4 +50,64 @@ header {
     margin-top: 20px;
     margin-right: 20px;
     float: right;
+}
+
+@media screen and (max-width:980px) {
+    header {
+        border-bottom: 1px solid #2d499a; 
+    }
+    .header-text {
+        width: 60%;
+        border-bottom: unset; 
+    }
+    .site-logo {
+        width: 20%;
+    }
+    #mobile-menu {
+        display: inline;
+        width: 20%;
+    }
+    #mobile-menu .mobile-menu-symbol {
+        cursor: pointer;
+        margin-top: 80px;
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    #mobile-menu .mobile-menu-container {
+        position: absolute;
+        z-index: 5;
+        background: #fff;
+        margin-top: 20px;
+        width: 100%;
+        height: 100vh;
+    } 
+    #mobile-menu .mobile-menu-container ul.nav-bar {
+        padding: 0;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    #mobile-menu .mobile-menu-container ul.nav-bar li  {
+        list-style: none;
+    }
+    #mobile-menu .mobile-menu-container ul.nav-bar li a {
+        text-decoration: none;
+        color:  #2d499a;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .site-logo img {
+        max-width: 50px;
+    }
+}
+
+@media screen and (max-height: 320px) {
+    #mobile-menu .mobile-menu-container ul.nav-bar {
+        padding: 0;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
 }
