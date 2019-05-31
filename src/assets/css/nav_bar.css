@@ -18,3 +18,13 @@ nav {
     font-size: 15px; 
     color: #2d499a;
 }
+
+.active {
+    font-weight: bold;
+}
+
+@media screen and (max-width:980px) {
+    nav.left-body {
+        display: none;
+    }
+}

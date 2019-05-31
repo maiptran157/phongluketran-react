@@ -7,7 +7,85 @@
 }
 
 .right-body {
-  /* background: whitesmoke; */
   width: calc(100% - 196px);
   position: relative;
+}
+
+.page-container {
+  width: 90%;
+  height: -webkit-fill-available;
+  padding-top: 150px;
+  overflow-y: auto;
+  position: relative;
+}
+
+.page-container::-webkit-scrollbar {
+  width: 0px;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+.section {
+  width: 100%;
+  text-align: center;
+}
+
+.page-container a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #2d4999;
+}
+
+.page-container button {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background: #2d4999;
+}
+
+.page-container button:hover {
+  opacity: 0.9;
+  transition: 0.5s ease-in-out;
+}
+
+.page-container button a {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width:980px) {
+  .right-body {
+    width: 100%;
+  }
+  .page-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page-container h1 {
+    font-size: 25px;
+  }
+} 
+
+@media screen and (max-width:600px) {
+  .section {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .page-container h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .page-container h1 {
+    font-size: 18px;
+  }
 }

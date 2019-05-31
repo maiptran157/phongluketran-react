@@ -1,13 +1,5 @@
 .home-container {
-    /* background: lightgreen; */
-    height: -webkit-fill-available;
     padding-top: 120px;
-    overflow-y: auto;
-}
-
-.section {
-    width: 100%;
-    text-align: center;
 }
 
 .about-section {
@@ -29,8 +21,47 @@
     font-size: 20px;
 }
 
-.clients-and-partners-logo img {
-    max-width: 200px;
-    max-height: 200px;
-    margin: 10px;
+.clients-and-partners-logo,
+.charities-we-support-logo {
+    width: 70%;
+    padding-left: 15%;
+}
+
+.clients-and-partners-logo img,
+.charities-we-support-logo img {
+    max-width: 150px;
+    padding: 20px;
+}
+
+@media screen and (max-width:980px) {
+    .clients-and-partners-logo img {
+        max-width: 100px;
+    }
+    .charities-we-support-logo img:first-child {
+        max-width: 90px !important;
+    }
+    .charities-we-support-logo img:nth-child(2) {
+        max-width: 117px !important;
+    }
+    .charities-we-support-logo img:nth-child(3) {
+        max-width: 85px !important;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about-section p {
+        margin-left: 15%;
+        width: 70%;
+    }
+    .clients-and-partners-logo, .charities-we-support-logo {
+        width: 100%;
+        padding-left: 0%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .about-section p {
+        margin-left: 10%;
+        width: 80%;
+    }
 }
