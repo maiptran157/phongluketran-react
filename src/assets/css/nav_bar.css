@@ -22,3 +22,9 @@ nav {
 .active {
     font-weight: bold;
 }
+
+@media screen and (max-width:980px) {
+    nav.left-body {
+        display: none;
+    }
+}

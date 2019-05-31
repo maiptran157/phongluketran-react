@@ -1,11 +1,12 @@
 .contact-container .contact-info-container {
     display: flex;
+    justify-content: center;
 }
 
 .contact-container .contact-info {
-    width: 50%;
     text-align: center;
-    font-size: 15px; 
+    font-size: 20px;
+    margin: 5%; 
 }
 
 .contact-container .contact-info i {

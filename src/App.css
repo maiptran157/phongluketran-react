@@ -56,3 +56,18 @@
   font-size: 20px;
   color: #fff;
 }
+
+@media screen and (max-width:980px) {
+  .right-body {
+    width: 100%;
+  }
+  .page-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .section {
+    display: inline-block;
+  }
+}

@@ -5,7 +5,7 @@ import contactInfo from '../config/contact_info';
 function Contact() {
     return <div className="page-container contact-container">
         <div className="section">
-            <h1>Let's Talk</h1>
+            <h1>Contact now for a limited time offer!</h1>
             <button><a href={`tel::${contactInfo.phone}`} target="_top">Call Today</a></button>
             <button><a href={`mailto:${contactInfo.email}`} target="_top">Send an Email</a></button>
         </div>

@@ -22,6 +22,15 @@
     padding: 20px;
 }
 
+.real-estate-container .pricing-section ul {
+    padding: 0;
+}
+
+.real-estate-container .pricing-section ul li {
+    list-style: none;
+    font-size: 27px;
+}
+
 /* @media screen and (max-width: 1024px) {
     .real-estate-container iframe {
         width: 500px;

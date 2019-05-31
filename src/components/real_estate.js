@@ -25,12 +25,11 @@ class RealEstate extends Component {
     render() {
         return <div className="page-container real-estate-container">
             <div className="section">
-                <h2>Invest in your business with the best technology</h2>
+                <h1>This is how you will get a higher closing price in less time</h1>
                 <iframe src='https://my.matterport.com/show/?m=2YTPHAURcUg' frameBorder='0' allowFullScreen allow='vr'></iframe>
             </div>
             <div className="section">
-                <h2>Look no further for the best photography</h2>
-                <h3>Residential:</h3>
+                <h1>For the effective real estate agent</h1>
                 <div className="gallery-section">
                     <img src={residential01} alt="" />
                     <img src={residential02} alt="" />
@@ -39,12 +38,16 @@ class RealEstate extends Component {
                     <img src={residential05} alt="" />
                     <img src={residential06} alt="" />
                 </div>
-                <h3>Commercial:</h3>
                 <div className="gallery-section">
                     <img src={commercial01} alt="" />
                     <img src={commercial02} alt="" />
                 </div>
-                <h2 style={{ fontStyle: "italic" }}>Turnaround within 2 days or your money back</h2>
+                <h2>Quick 2 days turnaround
+                <br />
+                    or
+                <br />
+                    your money back <span style={{ textDecoration: "underline" }}>guaranteed</span>
+                </h2>
             </div>
             <div className="section partners-section">
                 <h1>In Compliance with:</h1>
@@ -56,6 +59,15 @@ class RealEstate extends Component {
                     <img src={realtorLogo} style={{ margin: "70px 0px" }} alt="" />
                     <img src={matterportLogo} style={{ margin: "59px 0px" }} alt="" />
                 </div>
+            </div>
+            <div className="section pricing-section">
+                <h1>Services offer:</h1>
+                <ul>
+                    <li>Photography</li>
+                    <li>3D Photography</li>
+                    <li>Videography</li>
+                </ul>
+                <h1>Starting at only $150</h1>
             </div>
             <Footer />
         </div>
