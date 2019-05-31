@@ -6,3 +6,21 @@
     align-items: center;
     justify-content: center;
 }
+
+#site-footer .footer-child {
+    margin: 0px 20px;
+}
+
+#site-footer .footer-child i {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    #site-footer {
+        height: 200px;
+        flex-direction: column-reverse;
+    }
+    #site-footer .footer-child {
+        margin: 10px 0px;
+    }
+}

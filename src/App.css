@@ -83,3 +83,9 @@
     font-size: 20px;
   }
 }
+
+@media screen and (max-width:320px) {
+  .page-container h1 {
+    font-size: 18px;
+  }
+}

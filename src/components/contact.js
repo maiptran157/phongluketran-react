@@ -13,7 +13,7 @@ function Contact() {
                         {contactInfo.phone}
                     </a>
                 </div>
-                <button><a href={`tel::${contactInfo.phone}`} target="_top">Call Today</a></button>
+                {/* <button><a href={`tel::${contactInfo.phone}`} target="_top">Call Today</a></button> */}
             </div>
             <div className="contact-type">
                 <div className="contact-info">
@@ -22,7 +22,7 @@ function Contact() {
                         {contactInfo.email}
                     </a>
                 </div>
-                <button><a href={`mailto:${contactInfo.email}`} target="_top">Send an Email</a></button>
+                {/* <button><a href={`mailto:${contactInfo.email}`} target="_top">Send an Email</a></button> */}
             </div>
         </div>
     </div>

@@ -22,7 +22,7 @@ class Home extends Component {
     render() {
         return <div className="page-container home-container">
             <div className="section about-section">
-                <img src={profilePhoto} alt="" />
+                <img src={profilePhoto} alt="profile" />
                 <p className="about-text">
                     <strong>Guarantee 2 days turnaround or your money back</strong>
                     <br />

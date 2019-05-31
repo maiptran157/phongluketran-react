@@ -58,3 +58,10 @@
         padding-left: 0%;
     }
 }
+
+@media screen and (max-width:550px) {
+    .about-section p {
+        margin-left: 10%;
+        width: 80%;
+    }
+}

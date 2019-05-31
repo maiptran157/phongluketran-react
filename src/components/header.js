@@ -2,7 +2,6 @@ import '../assets/css/header.css';
 import blankLogo from '../assets/images/Blank_Logo.png';
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import { isTSExpressionWithTypeArguments } from '@babel/types';
 
 class Header extends Component {
     constructor(props) {
