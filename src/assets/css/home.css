@@ -33,6 +33,21 @@
     padding: 20px;
 }
 
+@media screen and (max-width:980px) {
+    .clients-and-partners-logo img {
+        max-width: 100px;
+    }
+    .charities-we-support-logo img:first-child {
+        max-width: 90px !important;
+    }
+    .charities-we-support-logo img:nth-child(2) {
+        max-width: 117px !important;
+    }
+    .charities-we-support-logo img:nth-child(3) {
+        max-width: 85px !important;
+    }
+}
+
 @media screen and (max-width:600px) {
     .about-section p {
         margin-left: 15%;
@@ -41,11 +56,5 @@
     .clients-and-partners-logo, .charities-we-support-logo {
         width: 100%;
         padding-left: 0%;
-    }
-}
-
-@media screen and (max-width:980px) {
-    .clients-and-partners-logo img, .charities-we-support-logo img {
-        max-width: 100px;
     }
 }

@@ -7,7 +7,6 @@
 }
 
 .right-body {
-  /* background: whitesmoke; */
   width: calc(100% - 196px);
   position: relative;
 }
@@ -18,7 +17,6 @@
   padding-top: 150px;
   overflow-y: auto;
   position: relative;
-  /* min-height: 100%; */
 }
 
 .page-container::-webkit-scrollbar {
@@ -32,6 +30,7 @@
 }
 
 .page-container a {
+  cursor: pointer;
   text-decoration: none;
   color: #2d4999;
 }
@@ -43,7 +42,6 @@
   border-radius: 30px;
   border: none;
   background: #2d4999;
-  margin: 5%;
 }
 
 .page-container button:hover {
@@ -52,7 +50,9 @@
 }
 
 .page-container button a {
+  cursor: pointer;
   text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
   color: #fff;
 }
@@ -66,8 +66,20 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .page-container h1 {
+    font-size: 25px;
+  }
+} 
+
 @media screen and (max-width:600px) {
   .section {
     display: inline-block;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .page-container h1 {
+    font-size: 20px;
   }
 }

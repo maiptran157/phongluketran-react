@@ -15,6 +15,7 @@ import unicefLogo from '../assets/images/Unicef_logo.png';
 import WWFLogo from '../assets/images/WWF_logo.png';
 import Footer from './footer';
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Home extends Component {
 
@@ -34,6 +35,8 @@ class Home extends Component {
                     <strong>You can make the world a better place</strong>
                     <br />
                     5% of our net profit always goes to making the world a friendlier place, and I could not have done it without you. Thank you so much!
+                    <br />
+                    <Link to="/real-estate" className="learn-more-text" style={{ fontWeight: "bold", textDecoration: "underline" }}>LEARN MORE</Link>
                 </p>
             </div>
             <div className="section clients-and-partners-section">
