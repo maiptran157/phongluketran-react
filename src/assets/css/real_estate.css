@@ -22,6 +22,74 @@
     padding: 20px;
 }
 
+#root > div > div > div > div.section.pricing-section > table {
+    width: 100%;
+    line-height: 35px;
+}
+
+#root > div > div > div > div.section.pricing-section > table > tr:nth-child(1) {
+    font-size: 20px;
+    background: #2d499a1c;
+}
+
+#root > div > div > div > div.section.pricing-section > table > tr:nth-child(1) > th:nth-child(2) > span {
+    text-decoration: underline;
+}
+
+.pricing-section table {
+    border-collapse: collapse;
+}
+
+.pricing-section table tr td {
+    height: 110px;
+    border: 1px solid #2d499a1c;
+}
+
+.service-type-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-type-detail-title {
+    font-size: 25px;
+}
+
+.service-type-detail-desc {
+    font-size: 15px;
+    color: #55b464;
+}
+
+.service-type-detail-bonus-flag, .bonus-price {
+    width: fit-content;
+    border: 1px solid #55b464;
+    border-radius: 10px;
+    background: #55b464;
+    color: #fff;
+}
+
+.limited-price {
+    font-size: 25px;
+    color: #55b464;
+    font-weight: bold;
+}
+
+.bonus-limited-price {
+    font-size: 17px;
+    /* color: #55b464; */
+    font-weight: bold;
+}
+
+.original-line-cross-out, .bonus-original-line-cross-out {
+    text-decoration: line-through;
+}
+
+.bonus-original-line-cross-out {
+    font-size: 12px; 
+}
+
+
 .real-estate-container .pricing-section ul {
     padding: 0;
 }

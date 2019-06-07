@@ -61,13 +61,57 @@ class RealEstate extends Component {
                 </div>
             </div>
             <div className="section pricing-section">
-                <h1>Services offer:</h1>
+                <table>
+                    <tr>
+                        <th>Service Type</th>
+                        <th><span>Limited Time</span> Pricing</th>
+                    </tr>
+                    <tr>
+                        <td className="service-type-detail">
+                            <span className="service-type-detail-title">Photography</span>
+                            <span className="service-type-detail-desc"> (Up to 4 photos per room)</span>
+                        </td>
+                        <td><span className="limited-price">$100</span><span className="original-line-cross-out"> $150</span></td>
+                    </tr>
+                    <tr>
+                        <td className="service-type-detail">
+                            <span className="service-type-detail-title">Matterport 3D Scan</span>
+                            <span className="service-type-detail-desc"> (Up to 2,000 sq. ft.)</span>
+                            <span className="service-type-detail-bonus-flag">Additional 500 sq. ft.</span>
+                        </td>
+                        <td className="price-with-bonus">
+                            <div><span className="limited-price">$200</span><span className="original-line-cross-out"> $250</span></div>
+                            <span className="bonus-price"><span className="bonus-limited-price">+ $25</span><span className="bonus-original-line-cross-out"> + $50</span></span>
+                        </td>
+                    </tr>
+                    {/* <tr>
+                        <td className="service-type-detail">
+                            <span className="service-type-detail-title">Additional 500 sq. ft.</span>
+                        </td>
+                        <td><span className="limited-price">+ $25</span><span className="original-line-cross-out"> + $50</span></td>
+                    </tr> */}
+                    <tr>
+                        <td className="service-type-detail">
+                            <span className="service-type-detail-title">Video Slideshow</span>
+                            <span className="service-type-detail-desc"> (3 for YouTube, Facebook, and Instagram)</span>
+                        </td>
+                        <td><span className="limited-price">$100</span><span className="original-line-cross-out"> $150</span></td>
+                    </tr>
+                    <tr>
+                        <td className="service-type-detail">
+                            <span className="service-type-detail-title">Floorplan</span>
+                        </td>
+                        <td><span className="limited-price">$25</span><span className="original-line-cross-out"> $25</span></td>
+                    </tr>
+                </table>
+
+                {/* <h1>Services offer:</h1>
                 <ul>
                     <li>Photography</li>
                     <li>3D Photography</li>
                     <li>Videography</li>
                 </ul>
-                <h1>Starting at only $150</h1>
+                <h1>Starting at only $150</h1> */}
             </div>
             <Footer />
         </div>
