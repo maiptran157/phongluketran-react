@@ -80,16 +80,12 @@ class RealEstate extends Component {
                             <span className="service-type-detail-bonus-flag">Additional 500 sq. ft.</span>
                         </td>
                         <td className="price-with-bonus">
-                            <div><span className="limited-price">$200</span><span className="original-line-cross-out"> $250</span></div>
-                            <span className="bonus-price"><span className="bonus-limited-price">+ $25</span><span className="bonus-original-line-cross-out"> + $50</span></span>
+                            <span className="limited-price">$200</span><span className="original-line-cross-out"> $250</span>
+                            <br />
+                            <span className="bonus-limited-price">+ $25</span>
+                            <span className="bonus-original-line-cross-out"> + $50</span>
                         </td>
                     </tr>
-                    {/* <tr>
-                        <td className="service-type-detail">
-                            <span className="service-type-detail-title">Additional 500 sq. ft.</span>
-                        </td>
-                        <td><span className="limited-price">+ $25</span><span className="original-line-cross-out"> + $50</span></td>
-                    </tr> */}
                     <tr>
                         <td className="service-type-detail">
                             <span className="service-type-detail-title">Video Slideshow</span>

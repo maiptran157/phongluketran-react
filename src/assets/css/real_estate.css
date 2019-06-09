@@ -22,9 +22,11 @@
     padding: 20px;
 }
 
-#root > div > div > div > div.section.pricing-section > table {
+.pricing-section table {
     width: 100%;
     line-height: 35px;
+    border-collapse: collapse;
+    border: 1px solid #2d499a1c;
 }
 
 #root > div > div > div > div.section.pricing-section > table > tr:nth-child(1) {
@@ -32,17 +34,25 @@
     background: #2d499a1c;
 }
 
+/* #root > div > div > div > div.section.pricing-section > table > tr:nth-child(1) th {
+    border: 1px solid #2d499a1c;
+} */
+
 #root > div > div > div > div.section.pricing-section > table > tr:nth-child(1) > th:nth-child(2) > span {
     text-decoration: underline;
 }
 
-.pricing-section table {
-    border-collapse: collapse;
+.pricing-section table tr td {
+    height: 151px;
+    border-bottom: 1px solid #2d499a1c;
 }
 
-.pricing-section table tr td {
-    height: 110px;
-    border: 1px solid #2d499a1c;
+.pricing-section table tr td:first-child {
+    border-right: 1px solid #2d499a1c;
+}
+
+.pricing-section table tr:last-child td {
+    border-bottom: none;
 }
 
 .service-type-detail {
@@ -61,24 +71,26 @@
     color: #55b464;
 }
 
-.service-type-detail-bonus-flag, .bonus-price {
-    width: fit-content;
-    border: 1px solid #55b464;
+.service-type-detail-bonus-flag {
+    border: 1px solid #2d499a1c;
     border-radius: 10px;
-    background: #55b464;
-    color: #fff;
 }
 
-.limited-price {
-    font-size: 25px;
+.service-type-detail-bonus-flag {
+    width: 160px;
+}
+
+.limited-price, .bonus-limited-price {
     color: #55b464;
     font-weight: bold;
 }
 
+.limited-price {
+    font-size: 25px;
+}
+
 .bonus-limited-price {
     font-size: 17px;
-    /* color: #55b464; */
-    font-weight: bold;
 }
 
 .original-line-cross-out, .bonus-original-line-cross-out {
@@ -87,16 +99,6 @@
 
 .bonus-original-line-cross-out {
     font-size: 12px; 
-}
-
-
-.real-estate-container .pricing-section ul {
-    padding: 0;
-}
-
-.real-estate-container .pricing-section ul li {
-    list-style: none;
-    font-size: 27px;
 }
 
 .learn-more-text {
@@ -111,6 +113,10 @@
     .partners-logo img {
         max-width: 100px;
     }
+    /* .pricing-section table {
+        width: 80%;
+        margin-left: 10%;
+    } */
 }
 
 @media screen and (max-width: 768px) {
@@ -130,6 +136,15 @@
     .partners-logo {
         width: 100%;
         padding-left: 0%;
+    }
+    .service-type-detail-title {
+        font-size: 20px;
+    }
+    .limited-price {
+        font-size: 20px;
+    }
+    .bonus-limited-price {
+        font-size: 15px;
     }
 }
 
