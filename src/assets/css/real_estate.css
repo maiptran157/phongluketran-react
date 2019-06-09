@@ -146,6 +146,9 @@
     .bonus-limited-price {
         font-size: 15px;
     }
+    .service-type-detail-bonus-flag {
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 550px) {

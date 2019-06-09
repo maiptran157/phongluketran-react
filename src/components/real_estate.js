@@ -61,6 +61,7 @@ class RealEstate extends Component {
                 </div>
             </div>
             <div className="section pricing-section">
+                <h1>Services:</h1>
                 <table>
                     <tr>
                         <th>Service Type</th>
@@ -101,13 +102,25 @@ class RealEstate extends Component {
                     </tr>
                 </table>
 
-                {/* <h1>Services offer:</h1>
-                <ul>
-                    <li>Photography</li>
-                    <li>3D Photography</li>
-                    <li>Videography</li>
-                </ul>
-                <h1>Starting at only $150</h1> */}
+                <h1>Packages:</h1>
+                <div className="package-section">
+                    <div>
+                        <h2>Standard Package</h2>
+                        <h3><span className="limited-price">$180</span><span className="original-line-cross-out">$280</span></h3>
+                        <p>
+                            <ul>
+                                <li>Photography</li>
+                                <li>Video slideshow</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
             </div>
             <Footer />
         </div>
