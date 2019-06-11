@@ -45,6 +45,7 @@
 .pricing-section table tr td {
     height: 151px;
     border-bottom: 1px solid #2d499a1c;
+    padding: 0;
 }
 
 .pricing-section table tr td:first-child {
@@ -95,6 +96,7 @@
 
 .original-line-cross-out, .bonus-original-line-cross-out {
     text-decoration: line-through;
+    margin-left: 5px; 
 }
 
 .bonus-original-line-cross-out {
@@ -105,6 +107,35 @@
     font-size: 20px;
 }
 
+.package-section {
+    width: 100%;
+    display: flex;
+}
+
+.package-detail {
+    border: 1px solid #2d499a1c;
+    width: 30%;
+}
+
+.package-detail h2 {
+    background: #2d499a1c;
+    margin: 0;
+    line-height: 35px;
+}
+
+.package-detail ul {
+    padding: 0;
+}
+
+.package-detail ul li {
+    list-style: none;
+}
+
+#premium-package {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 @media screen and (max-width: 980px) {
     .real-estate-container iframe {
         width: 711px;
@@ -113,10 +144,26 @@
     .partners-logo img {
         max-width: 100px;
     }
-    /* .pricing-section table {
+    .pricing-section table {
         width: 80%;
         margin-left: 10%;
-    } */
+    }
+    .package-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .package-detail {
+        width: 80%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
+    
+    #premium-package {
+        margin-left: 10%;
+        margin-right: 0%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -158,6 +205,18 @@
     }
     .gallery-section img {
         width: 64%;
+    }
+    .pricing-section table {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .package-detail {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    #premium-package {
+        margin-left: 0%;
     }
 }
 

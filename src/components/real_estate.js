@@ -72,7 +72,7 @@ class RealEstate extends Component {
                             <span className="service-type-detail-title">Photography</span>
                             <span className="service-type-detail-desc"> (Up to 4 photos per room)</span>
                         </td>
-                        <td><span className="limited-price">$100</span><span className="original-line-cross-out"> $150</span></td>
+                        <td><span className="limited-price">$100</span><span className="original-line-cross-out">$150</span></td>
                     </tr>
                     <tr>
                         <td className="service-type-detail">
@@ -81,10 +81,10 @@ class RealEstate extends Component {
                             <span className="service-type-detail-bonus-flag">Additional 500 sq. ft.</span>
                         </td>
                         <td className="price-with-bonus">
-                            <span className="limited-price">$200</span><span className="original-line-cross-out"> $250</span>
+                            <span className="limited-price">$200</span><span className="original-line-cross-out">$250</span>
                             <br />
                             <span className="bonus-limited-price">+ $25</span>
-                            <span className="bonus-original-line-cross-out"> + $50</span>
+                            <span className="bonus-original-line-cross-out">+ $50</span>
                         </td>
                     </tr>
                     <tr>
@@ -92,33 +92,56 @@ class RealEstate extends Component {
                             <span className="service-type-detail-title">Video Slideshow</span>
                             <span className="service-type-detail-desc"> (3 for YouTube, Facebook, and Instagram)</span>
                         </td>
-                        <td><span className="limited-price">$100</span><span className="original-line-cross-out"> $150</span></td>
+                        <td><span className="limited-price">$100</span><span className="original-line-cross-out">$150</span></td>
                     </tr>
                     <tr>
                         <td className="service-type-detail">
                             <span className="service-type-detail-title">Floorplan</span>
                         </td>
-                        <td><span className="limited-price">$25</span><span className="original-line-cross-out"> $25</span></td>
+                        <td><span className="limited-price">$25</span><span className="original-line-cross-out">$25</span></td>
                     </tr>
                 </table>
 
                 <h1>Packages:</h1>
                 <div className="package-section">
-                    <div>
+                    <div id="standard-package" className="package-detail">
                         <h2>Standard Package</h2>
                         <h3><span className="limited-price">$180</span><span className="original-line-cross-out">$280</span></h3>
                         <p>
                             <ul>
                                 <li>Photography</li>
+                                <li>+</li>
                                 <li>Video slideshow</li>
                             </ul>
                         </p>
                     </div>
-                    <div>
-
+                    <div id="premium-package" className="package-detail">
+                        <h2>Premium Package</h2>
+                        <h3><span className="limited-price">$350</span><span className="original-line-cross-out">$580</span></h3>
+                        <p>
+                            <ul>
+                                <li>Photography</li>
+                                <li>+</li>
+                                <li>Video slideshow</li>
+                                <li>+</li>
+                                <li>3D Scan</li>
+                            </ul>
+                        </p>
                     </div>
-                    <div>
-
+                    <div id="deluxe-package" className="package-detail">
+                        <h2>Deluxe Package</h2>
+                        <h3><span className="limited-price">$400</span><span className="original-line-cross-out">$525</span></h3>
+                        <p>
+                            <ul>
+                                <li>Photography</li>
+                                <li>+</li>
+                                <li>Video slideshow</li>
+                                <li>+</li>
+                                <li>3D Scan</li>
+                                <li>+</li>
+                                <li>Floorplan</li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
             </div>
