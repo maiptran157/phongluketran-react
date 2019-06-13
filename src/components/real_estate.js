@@ -88,7 +88,7 @@ class RealEstate extends Component {
                         <td className="service-type-detail">
                             <span className="service-type-detail-title">Floorplan</span>
                         </td>
-                        <td><span className="limited-price">$25</span><span className="original-line-cross-out">$25</span></td>
+                        <td><span className="limited-price">$25</span><span className="original-line-cross-out">$50</span></td>
                     </tr>
                 </table>
 
@@ -107,7 +107,7 @@ class RealEstate extends Component {
                     </div>
                     <div id="premium-package" className="package-detail">
                         <h2>Premium Package</h2>
-                        <h3><span className="limited-price">$350</span><span className="original-line-cross-out">$580</span></h3>
+                        <h3><span className="limited-price">$350</span><span className="original-line-cross-out">$500</span></h3>
                         <p>
                             <ul>
                                 <li>Photography</li>
