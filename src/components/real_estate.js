@@ -31,16 +31,16 @@ class RealEstate extends Component {
             <div className="section">
                 <h1>For the effective real estate agent</h1>
                 <div className="gallery-section">
-                    <img src={residential01} alt="" />
-                    <img src={residential02} alt="" />
-                    <img src={residential03} alt="" />
-                    <img src={residential04} alt="" />
-                    <img src={residential05} alt="" />
-                    <img src={residential06} alt="" />
+                    <img src="https://phongluketran.s3-us-west-1.amazonaws.com/residential_01.JPG" alt="" />
+                    <img src="https://phongluketran.s3-us-west-1.amazonaws.com/residential_02.JPG" alt="" />
+                    <img src="https://phongluketran.s3-us-west-1.amazonaws.com/residential_03.JPG" alt="" />
+                    <img src="https://phongluketran.s3-us-west-1.amazonaws.com/residential_04.JPG" alt="" />
+                    <img src="https://phongluketran.s3-us-west-1.amazonaws.com/residential_05.JPG" alt="" />
+                    <img src="https://phongluketran.s3-us-west-1.amazonaws.com/residential_06.JPG" alt="" />
                 </div>
                 <div className="gallery-section">
-                    <img src={commercial01} alt="" />
-                    <img src={commercial02} alt="" />
+                    <img src="https://phongluketran.s3-us-west-1.amazonaws.com/commercial_01.jpg" alt="" />
+                    <img src="https://phongluketran.s3-us-west-1.amazonaws.com/commercial_02.jpg" alt="" />
                 </div>
                 <h2>Quick 2 days turnaround
                 <br />
