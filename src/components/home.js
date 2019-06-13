@@ -1,5 +1,4 @@
 import '../assets/css/home.css';
-import profilePhoto from '../assets/images/profile_photo.png';
 import homesDotComLogo from '../assets/images/homes_dot_com_logo.png';
 import CARLogo from '../assets/images/CAR_logo.png';
 import adobeLogo from '../assets/images/adobe_logo.png';
@@ -22,7 +21,7 @@ class Home extends Component {
     render() {
         return <div className="page-container home-container">
             <div className="section about-section">
-                <img src={profilePhoto} alt="profile" />
+                <img src="https://phongluketran.s3-us-west-1.amazonaws.com/profile_photo.png" alt="profile" />
                 <p className="about-text">
                     <strong>Guarantee 2 days turnaround or your money back</strong>
                     <br />
