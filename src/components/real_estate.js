@@ -1,15 +1,5 @@
 import '../assets/css/real_estate.css';
 
-import residential01 from '../assets/images/residential_01.JPG';
-import residential02 from '../assets/images/residential_02.JPG';
-import residential03 from '../assets/images/residential_03.JPG';
-import residential04 from '../assets/images/residential_04.JPG';
-import residential05 from '../assets/images/residential_05.JPG';
-import residential06 from '../assets/images/residential_06.JPG';
-
-import commercial01 from '../assets/images/commercial_01.jpg';
-import commercial02 from '../assets/images/commercial_02.jpg';
-
 import homesDotComLogo from '../assets/images/homes_dot_com_logo.png';
 import CARLogo from '../assets/images/CAR_logo.png';
 import adobeLogo from '../assets/images/adobe_logo.png';
